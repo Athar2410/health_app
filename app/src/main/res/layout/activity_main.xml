@@ -10,7 +10,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="24dp"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:background="@color/homeBackground">
 
         <TextView
             android:layout_width="wrap_content"
@@ -26,6 +27,13 @@
             android:layout_height="wrap_content"
             android:text="Mood Tracker"
             android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/weeklySummaryBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weekly Mood Summary"
+            android:layout_marginTop="12dp"/>
 
         <Button
             android:id="@+id/journalButton"
@@ -49,11 +57,14 @@
             android:layout_marginTop="16dp"/>
 
         <Button
-            android:id="@+id/weeklySummaryBtn"
+            android:id="@+id/quotesBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Weekly Mood Summary"
-            android:layout_marginTop="12dp"/>
+            android:text="Positive Affirmations"
+            android:layout_marginTop="12dp" />
+
+
+
 
 
     </LinearLayout>

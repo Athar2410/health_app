@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends Activity {
 
-    Button moodButton, journalButton, breathingButton, reminderButton;
+    Button moodButton, journalButton, breathingButton, reminderButton, weeklySummaryBtn, quotesBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,9 +16,12 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main); // make sure this XML has the correct buttons
 
         moodButton = findViewById(R.id.moodButton);
+        weeklySummaryBtn = findViewById(R.id.weeklySummaryBtn);
         journalButton = findViewById(R.id.journalButton);
         breathingButton = findViewById(R.id.breathingButton);
         reminderButton = findViewById(R.id.reminderButton);
+        quotesBtn = findViewById(R.id.quotesBtn);
+
 
         moodButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,10 +55,18 @@ public class MainActivity extends Activity {
             }
         });
 
-        reminderButton.setOnClickListener(new View.OnClickListener() {
+        weeklySummaryBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, WeeklySummaryActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        quotesBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, QuotesActivity.class);
                 startActivity(intent);
             }
         });
