@@ -1,14 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="purple_200">#BB86FC</color>
-    <color name="purple_500">#6200EE</color>
-    <color name="purple_700">#3700B3</color>
-    <color name="teal_200">#03DAC5</color>
-    <color name="teal_700">#018786</color>
+    <!-- Primary Colors -->
+    <color name="primary">#4CAF93</color> <!-- Soft Teal -->
+    <color name="primaryVariant">#388E7A</color>
+    <color name="onPrimary">#FFFFFF</color>
+
+    <!-- Accent / Secondary Highlight -->
+    <color name="accent">#81D4FA</color> <!-- Sky Blue Accent -->
+
+    <!-- Secondary Colors -->
+    <color name="secondary">#FFC107</color> <!-- Amber -->
+    <color name="secondaryVariant">#FFB300</color>
+    <color name="onSecondary">#000000</color>
+
+    <!-- Background and Surface -->
+    <color name="background">#F5F9F7</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="onSurface">#333333</color>
+
+    <!-- System Bars -->
+    <color name="statusBar">#388E7A</color>
+    <color name="navigationBar">#F5F9F7</color>
+
+    <!-- Text -->
+    <color name="textPrimary">#222222</color>
+    <color name="textSecondary">#666666</color>
+
+    <!-- Buttons -->
+    <color name="buttonNormal">#4CAF93</color>
+    <color name="buttonPressed">#3C8E74</color>
+
+    <!-- Error -->
+    <color name="error">#E57373</color>
+
+    <!-- Utility -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="homeBackground">#E3F2FD</color>
 
 
-    <!-- Custom color for your splash screen -->
-    <color name="light_blue">#90CAF9</color> <!-- Light blue -->
 </resources>

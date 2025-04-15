@@ -32,6 +32,11 @@ public class HomeActivity extends Activity {
         findViewById(R.id.weeklySummaryBtn).setOnClickListener(v -> {
             startActivity(new Intent(this, WeeklySummaryActivity.class));
         });
+        findViewById(R.id.weeklySummaryBtn).setOnClickListener(v -> {
+            startActivity(new Intent(this, WeeklySummaryActivity.class));
+        });
+
+
 
 
     }

@@ -6,7 +6,8 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@color/homeBackground">
 
         <TextView
             android:id="@+id/affirmationText"
@@ -34,6 +35,13 @@
             android:layout_height="wrap_content"
             android:text="Weekly Mood Summary"
             android:layout_marginTop="12dp" />
+        <Button
+            android:id="@+id/quotesBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Positive Affirmations"
+            android:layout_marginTop="12dp" />
+
 
     </LinearLayout>
 </ScrollView>
