@@ -26,42 +26,54 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Mood Tracker"
-            android:layout_marginTop="16dp"/>
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/baseline_add_reaction_24"
+            android:drawableRight="@drawable/baseline_add_reaction_24" />
 
         <Button
             android:id="@+id/weeklySummaryBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Weekly Mood Summary"
-            android:layout_marginTop="12dp"/>
+            android:layout_marginTop="12dp"
+            android:drawableLeft="@drawable/baseline_add_chart_24"
+            android:drawableRight="@drawable/baseline_add_chart_24"/>
 
         <Button
             android:id="@+id/journalButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Journal"
-            android:layout_marginTop="16dp"/>
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/baseline_abc_24"
+            android:drawableRight="@drawable/baseline_abc_24"/>
 
         <Button
             android:id="@+id/breathingButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Breathing Exercise"
-            android:layout_marginTop="16dp"/>
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/baseline_accessibility_new_24"
+            android:drawableRight="@drawable/baseline_accessibility_new_24"/>
 
         <Button
             android:id="@+id/reminderButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Set Reminder"
-            android:layout_marginTop="16dp"/>
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/baseline_access_alarms_24"
+            android:drawableRight="@drawable/baseline_access_alarms_24" />
 
         <Button
             android:id="@+id/quotesBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Positive Affirmations"
-            android:layout_marginTop="12dp" />
+            android:layout_marginTop="12dp"
+            android:drawableLeft="@drawable/baseline_add_comment_24"
+            android:drawableRight="@drawable/baseline_add_comment_24"/>
 
 
 
